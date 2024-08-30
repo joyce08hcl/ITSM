@@ -1,0 +1,10 @@
+langchain
+pymongo
+bs4
+tiktoken
+lxml
+requests
+argparse
+unstructured
+sentence-transformers
+python-dotenv

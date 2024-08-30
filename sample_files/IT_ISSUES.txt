@@ -1,0 +1,822 @@
+Ticket ID: ITD0010001
+Summary: Migration of legacy email server to cloud-based solution
+Description: Migrate the company's legacy on-premise email server to a cloud-based solution like Microsoft 365. This includes data backup, DNS configuration, and user training.
+Priority: High
+Status: Planned
+Assigned To: IT Infrastructure - Grace Hopper
+Requested By: IT Operations Team
+Date Opened: 2024-08-21
+Comments:
+- 08/21/2024 10:00 AM: Request submitted by IT Operations Team
+- 08/21/2024 11:30 AM: Migration plan finalized, scheduled for 08/30/2024.
+
+Possible Solutions:
+- Data Backup: Perform a full backup of all emails and associated data. Use tools or services like Microsoft Exchange Backup or third-party solutions.
+- DNS Configuration: Update DNS records to point to the new cloud-based email server. Ensure MX records are correctly configured.
+- User Training: Develop training materials and conduct sessions for users on accessing and using the new email system.
+
+
+Ticket ID: ITD0010002
+Summary: Implementation of two-factor authentication for all corporate accounts
+Description: Implement two-factor authentication (2FA) across all corporate accounts to enhance security. This includes integrating 2FA with existing systems and rolling out to all users.
+Priority: Critical
+Status: In Progress
+Assigned To: IT Security - Margaret Hamilton
+Requested By: IT Security Team
+Date Opened: 2024-08-22
+Comments:
+- 08/22/2024 09:00 AM: Request submitted by IT Security Team
+- 08/22/2024 10:30 AM: 2FA integration in progress, expected completion by 08/27/2024.
+Possible Solutions:
+- Integration with Existing Systems: Use identity management systems to integrate 2FA. Tools like Okta or Microsoft Azure AD can help.
+- Rollout Plan: Communicate the change to all users and provide instructions for setting up 2FA on their accounts.
+- Support: Offer support for users facing issues with 2FA setup, including FAQs and troubleshooting guides.
+
+
+Ticket ID: ITD0010003
+Summary: Development of internal IT helpdesk portal
+Description: Develop an internal IT helpdesk portal to streamline support requests. The portal should allow ticket submission, status tracking, and knowledge base access.
+Priority: Medium
+Status: Planned
+Assigned To: IT Development Team - Alan Turing
+Requested By: IT Support Team
+Date Opened: 2024-08-20
+Comments:
+- 08/20/2024 08:00 AM: Request submitted by IT Support Team
+- 08/20/2024 09:00 AM: Project planning in progress, development to start on 08/25/2024.
+Possible Solutions:
+-Portal Development: Use platforms like Zendesk or Freshdesk for building the helpdesk portal.
+-Ticketing System: Implement features for ticket submission, status tracking, and a knowledge base.
+-User Training: Provide training for IT staff and end-users on how to use the new helpdesk portal.
+
+
+Ticket ID: ITD0010004
+Summary: Upgrade of company-wide antivirus software
+Description: Upgrade all company systems to the latest version of antivirus software, ensuring all machines have real-time protection and regular updates enabled.
+Priority: High
+Status: In Progress
+Assigned To: IT Security - Radia Perlman
+Requested By: IT Security Team
+Date Opened: 2024-08-23
+Comments:
+-08/23/2024 01:00 PM: Request submitted by IT Security Team
+-08/23/2024 02:00 PM: Antivirus upgrade in progress, completion expected by 08/26/2024.
+Possible Solutions:
+-Software Upgrade: Deploy the latest version of antivirus software across all systems using tools like WSUS or SCCM.
+-Real-Time Protection: Ensure real-time protection is enabled and configured correctly on all machines.
+-Updates: Set up automatic updates to ensure ongoing protection.
+
+
+Ticket ID: ITD0010005
+Summary: Implementation of automated backup solution for critical servers
+Description: Implement an automated backup solution for all critical servers, ensuring daily backups with offsite storage.
+Priority: Critical
+Status: Planned
+Assigned To: IT Infrastructure - Ada Lovelace
+Requested By: IT Operations Team
+Date Opened: 2024-08-24
+Comments:
+-08/24/2024 09:30 AM: Request submitted by IT Operations Team
+-08/24/2024 10:30 AM: Backup solution plan approved, implementation scheduled for 09/01/2024.
+Possible Solutions:
+-Backup Solution: Choose and implement backup software such as Veeam or Acronis for automated backups.
+-Offsite Storage: Configure offsite or cloud storage options for backup data to ensure redundancy.
+-Testing: Regularly test backup restoration processes to ensure data integrity.
+
+
+Ticket ID: ITD0010006
+Summary: Rollout of company-wide VPN for remote workers
+Description: Roll out a company-wide VPN solution to secure connections for remote workers. This includes configuring VPN access and providing user training.
+Priority: High
+Status: In Progress
+Assigned To: IT Networking - Grace Hopper
+Requested By: IT Operations Team
+Date Opened: 2024-08-25
+Comments:
+-08/25/2024 08:00 AM: Request submitted by IT Operations Team
+-08/25/2024 09:00 AM: VPN configuration in progress, expected completion by 08/28/2024.
+Possible Solutions:
+-VPN Configuration: Set up and configure VPN gateways and clients using tools like Cisco AnyConnect or OpenVPN.
+-User Access: Ensure all remote workers have VPN access credentials and configurations.
+-Training: Provide user guides and training on how to connect to the VPN securely.
+
+
+Ticket ID: ITD0010007
+Summary: Integration of IT asset management system
+Description: Integrate a new IT asset management system to track hardware and software assets across the company. This includes inventory migration and user access configuration.
+Priority: Medium
+Status: Planned
+Assigned To: IT Development Team - Donald Knuth
+Requested By: IT Operations Team
+Date Opened: 2024-08-21
+Comments:
+-08/21/2024 09:00 AM: Request submitted by IT Operations Team
+-08/21/2024 10:00 AM: System integration plan drafted, expected to start on 08/26/2024.
+Possible Solutions:
+-System Integration: Implement asset management tools such as ServiceNow or Lansweeper to track hardware and software.
+-Inventory Migration: Migrate existing asset data into the new system.
+-User Access: Configure user roles and permissions for managing and viewing asset data.
+
+
+Ticket ID: ITD0010008
+Summary: Troubleshooting network latency issues in the corporate office
+Description: Diagnose and resolve network latency issues reported in the corporate office, including router configuration and potential hardware replacements.
+Priority: High
+Status: In Progress
+Assigned To: IT Networking - Radia Perlman
+Requested By: IT Support Team
+Date Opened: 2024-08-24
+Comments:
+-08/24/2024 02:00 PM: Request submitted by IT Support Team
+-08/24/2024 03:00 PM: Network troubleshooting in progress, initial findings suggest router reconfiguration required.
+Possible Solutions:
+-Router Configuration: Check and optimize router settings. Consider firmware updates or reconfiguration.
+-Hardware Check: Inspect network hardware for potential issues or upgrades.
+-Performance Monitoring: Use network monitoring tools like Wireshark or SolarWinds to diagnose and resolve latency issues.
+
+
+Ticket ID: ITD0010009
+Summary: Deployment of automated patch management system
+Description: Deploy an automated patch management system to ensure all company systems are regularly updated with the latest security patches.
+Priority: Critical
+Status: Planned
+Assigned To: IT Security - Margaret Hamilton
+Requested By: IT Security Team
+Date Opened: 2024-08-22
+Comments:
+-08/22/2024 02:00 PM: Request submitted by IT Security Team
+-08/22/2024 03:00 PM: Patch management system selected, deployment scheduled for 08/29/2024.
+Possible Solutions:
+-Patch Management Tools: Deploy tools like Microsoft WSUS or Ivanti for automated patch management.
+-Configuration: Configure the system to regularly check and apply patches.
+-Testing: Test patches on a staging environment before deploying them company-wide.
+
+
+Ticket ID: ITD0010010
+Summary: Establishment of a disaster recovery site
+Description: Establish a disaster recovery site in a different geographic location to ensure business continuity in case of a major incident. This includes data replication and failover testing.
+Priority: Critical
+Status: Planned
+Assigned To: IT Infrastructure - Ada Lovelace
+Requested By: IT Operations Team
+Date Opened: 2024-08-26
+Comments:
+-08/26/2024 08:00 AM: Request submitted by IT Operations Team
+-08/26/2024 09:00 AM: Disaster recovery site setup planned, execution to start on 09/05/2024.
+Possible Solutions:
+-Patch Management Tools: Deploy tools like Microsoft WSUS or Ivanti for automated patch management.
+-Configuration: Configure the system to regularly check and apply patches.
+-Testing: Test patches on a staging environment before deploying them company-wide.
+
+
+Ticket ID: ITD0010011
+Summary: Enhancement of IT service desk performance monitoring
+Description: Enhance the IT service desk's performance monitoring tools to better track resolution times and customer satisfaction.
+Priority: Medium
+Status: Planned
+Assigned To: IT Development Team - Alan Turing
+Requested By: IT Support Team
+Date Opened: 2024-08-23
+Comments:
+-08/23/2024 11:00 AM: Request submitted by IT Support Team
+-08/23/2024 12:00 PM: Performance monitoring enhancement planned, expected to be rolled out by 08/31/2024.
+Possible Solutions:
+-Performance Tools: Use performance monitoring tools like Nagios or New Relic to track service desk metrics.
+-Reports and Dashboards: Create dashboards and reports to monitor resolution times and customer satisfaction.
+-Feedback Loop: Implement a feedback loop to continually improve service desk performance based on metrics and user feedback.
+
+
+Ticket ID: ITD0010012
+Summary: Installation of additional Wi-Fi access points in the corporate office
+Description: Install additional Wi-Fi access points in the corporate office to improve coverage and connectivity, especially in high-traffic areas.
+Priority: Medium
+Status: In Progress
+Assigned To: IT Networking - Grace Hopper
+Requested By: IT Support Team
+Date Opened: 2024-08-24
+Comments:
+-08/24/2024 10:00 AM: Request submitted by IT Support Team
+-08/24/2024 11:00 AM: Wi-Fi access point installation in progress, expected completion by 08/26/2024.
+Possible Solutions:
+-Site Survey: Conduct a site survey to determine optimal locations for new access points.
+-Installation: Install access points and configure them for optimal coverage and performance.
+-Testing: Test the new setup to ensure coverage and connectivity improvements.
+
+
+Ticket ID: ITD0010013
+Summary: Rollout of company-wide instant messaging platform
+Description: Roll out a company-wide instant messaging platform to improve communication across teams. This includes user training and integration with existing systems.
+Priority: High
+Status: Planned
+Assigned To: IT Development Team - Donald Knuth
+Requested By: IT Operations Team
+Date Opened: 2024-08-25
+Comments:
+-08/25/2024 09:00 AM: Request submitted by IT Operations Team
+-08/25/2024 10:00 AM: Instant messaging platform selection and rollout plan approved, expected to start on 09/01/2024.
+Possible Solutions:
+-Platform Selection: Choose an instant messaging platform like Slack or Microsoft Teams.
+-Integration: Integrate the platform with existing systems and workflows.
+-User Training: Provide training and support for employees to effectively use the new messaging platform.
+
+
+Ticket ID: ITD0010014
+Summary: Upgrade of data center cooling system
+Description: Upgrade the data center's cooling system to handle increased heat output from new hardware installations. This includes HVAC system enhancement and temperature monitoring setup.
+Priority: Critical
+Status: Planned
+Assigned To: IT Infrastructure - Grace Hopper
+Requested By: IT Infrastructure Team
+Date Opened: 2024-08-26
+Comments:
+-08/26/2024 10:00 AM: Request submitted by IT Infrastructure Team
+-08/26/2024 11:00 AM: Cooling system upgrade plan in progress, implementation scheduled for 09/04/2024.
+Possible Solutions:
+-Cooling System Enhancement: Upgrade HVAC systems or add additional cooling units as needed.
+-Temperature Monitoring: Install temperature sensors and monitoring systems to track and manage data center temperature.
+-Maintenance: Regularly maintain and service the cooling systems to ensure reliability.
+
+
+Ticket ID: ITD0010015
+Summary: Deployment of endpoint encryption across all company devices
+Description: Deploy endpoint encryption across all company devices to secure data at rest. This includes software installation and user education on data protection.
+Priority: Critical
+Status: In Progress
+Assigned To: IT Security - Radia Perlman
+Requested By: IT Security Team
+Date Opened: 2024-08-22
+Comments:
+-08/22/2024 02:00 PM: Request submitted by IT Security Team
+-08/22/2024 03:00 PM: Endpoint encryption deployment in progress, expected completion by 08/30/2024.
+Possible Solutions:
+-Encryption Software: Deploy encryption software like BitLocker or Symantec Endpoint Encryption.
+-Configuration: Configure encryption settings for all devices and ensure compliance.
+-User Education: Train users on the importance of data protection and how to manage encrypted devices.
+
+
+Ticket ID: ITD0010016
+Summary: Installation of new network printers
+Description: Install new network printers in the HR and Finance departments. This includes setting up drivers and configuring access permissions.
+Priority: Medium
+Status: Planned
+Assigned To: IT Support Team - Alan Turing
+Requested By: HR Department
+Date Opened: 2024-08-26
+Comments:
+-08/26/2024 11:00 AM: Request submitted by HR Department
+-08/26/2024 12:00 PM: Printer installation scheduled for 08/28/2024.
+Possible Solutions:
+-Printer Installation: Install printers and configure drivers on all relevant systems.
+-Access Permissions: Set up access permissions and configure print management settings.
+-Testing: Test printer functionality and address any connectivity or configuration issues.
+
+
+Ticket ID: ITD0010017
+Summary: Upgrade of office desktops to SSDs
+Description: Upgrade office desktops with SSDs to improve system performance. This includes data migration and hardware installation.
+Priority: High
+Status: In Progress
+Assigned To: IT Support Team - Donald Knuth
+Requested By: IT Operations Team
+Date Opened: 2024-08-26
+Comments:
+-08/26/2024 10:00 AM: Request submitted by IT Operations Team
+-08/26/2024 11:00 AM: SSD upgrade in progress, expected completion by 08/30/2024.
+Possible Solutions:
+-Printer Installation: Install printers and configure drivers on all relevant systems.
+-Access Permissions: Set up access permissions and configure print management settings.
+-Testing: Test printer functionality and address any connectivity or configuration issues.
+
+
+Ticket ID: ITD0010018
+Summary: Configuration of email forwarding for departing employees
+Description: Configure email forwarding rules for employees leaving the company to ensure business continuity.
+Priority: Low
+Status: Planned
+Assigned To: IT Support Team - Grace Hopper
+Requested By: HR Department
+Date Opened: 2024-08-27
+Comments:
+-08/27/2024 08:00 AM: Request submitted by HR Department
+-08/27/2024 09:00 AM: Email forwarding configuration scheduled for 08/29/2024.
+Possible Solutions:
+-Forwarding Rules: Configure email forwarding rules in the email server for departing employees.
+-Notification: Notify relevant stakeholders about the forwarding setup.
+-Monitoring: Monitor forwarding rules to ensure they are working as expected.
+
+
+Ticket ID: ITD0010019
+Summary: Implementation of new employee onboarding system
+Description: Implement a new digital onboarding system for new employees, integrating with HR systems for seamless data entry and training.
+Priority: Medium
+Status: Planned
+Assigned To: IT Development Team - Ada Lovelace
+Requested By: HR Department
+Date Opened: 2024-08-25
+Comments:
+-08/25/2024 09:00 AM: Request submitted by HR Department
+-08/25/2024 10:00 AM: Onboarding system planning in progress, expected rollout by 09/10/2024.
+Possible Solutions:
+-Onboarding System Selection: Choose and implement an onboarding system like BambooHR or Workday.
+-Integration: Integrate the system with existing HR systems for seamless data entry.
+-Training: Provide training for HR staff and new employees on using the new system.
+
+
+Ticket ID: ITD0010020
+Summary: Resolution of recurring VPN connection drops
+Description: Investigate and resolve recurring VPN connection drops affecting remote workers.
+Priority: High
+Status: In Progress
+Assigned To: IT Networking - Radia Perlman
+Requested By: IT Support Team
+Date Opened: 2024-08-27
+Comments:
+-08/27/2024 10:00 AM: Request submitted by IT Support Team
+-08/27/2024 11:00 AM: VPN troubleshooting in progress, possible firewall issue identified.
+Possible Solutions:
+-Firewall Check: Investigate and resolve potential firewall issues affecting VPN connections.
+-Configuration Review: Review and optimize VPN configurations and settings.
+-Connection Testing: Perform thorough testing to identify and address the root cause of connection drops.
+
+
+Ticket ID: ITD0010021
+Summary: Setup of a new file server for the finance department
+Description: Set up a new file server for the finance department, ensuring secure access and regular backups.
+Priority: High
+Status: Planned
+Assigned To: IT Infrastructure - Alan Turing
+Requested By: Finance Department
+Date Opened: 2024-08-27
+Comments:
+-08/27/2024 08:00 AM: Request submitted by Finance Department
+-08/27/2024 09:00 AM: Server setup scheduled for 09/01/2024.
+Possible Solutions:
+-Verify server hardware and software requirements.
+-Configure server with necessary security settings.
+-Set up user access controls and permissions.
+-Schedule and perform regular backups.
+-Test access and backup functionality before going live.
+
+
+Ticket ID: ITD0010022
+Summary: Development of a company intranet
+Description: Develop a company intranet for internal communications, document sharing, and team collaboration.
+Priority: Medium
+Status: Planned
+Assigned To: IT Development Team - Donald Knuth
+Requested By: HR Department
+Date Opened: 2024-08-28
+Comments:
+-08/28/2024 09:00 AM: Request submitted by HR Department
+-08/28/2024 10:00 AM: Intranet development planning in progress, expected rollout by 09/15/2024.
+Possible Solutions:
+-Define the intranet’s objectives and requirements.
+-Design the layout and structure of the intranet.
+-Develop and integrate necessary features such as document sharing and team collaboration tools.
+-Test the intranet for usability and functionality.
+-Provide training and support for employees on using the intranet.
+
+
+Ticket ID: ITD0010023
+Summary: Implementation of automated IT ticketing system
+Description: Implement an automated IT ticketing system to improve response times and track issue resolution.
+Priority: High
+Status: In Progress
+Assigned To: IT Development Team - Grace Hopper
+Requested By: IT Operations Team
+Date Opened: 2024-08-26
+Comments:
+-08/26/2024 09:00 AM: Request submitted by IT Operations Team
+-08/26/2024 10:00 AM: Ticketing system implementation in progress, expected completion by 09/01/2024.
+Possible Solutions:
+-Select and configure a suitable ticketing system.
+-Integrate the ticketing system with existing IT management tools.
+-Define workflows and escalation procedures.
+-Test the system for proper functionality.
+-Train staff on using the new system.
+
+
+Ticket ID: ITD0010024
+Summary: Upgrade of office network switches
+Description: Upgrade the network switches in the office to support higher data throughput and improve network reliability.
+Priority: Medium
+Status: Planned
+Assigned To: IT Networking - Radia Perlman
+Requested By: IT Infrastructure Team
+Date Opened: 2024-08-28
+Comments:
+-08/28/2024 11:00 AM: Request submitted by IT Infrastructure Team
+-08/28/2024 12:00 PM: Network switch upgrade scheduled for 09/05/2024.
+Possible Solutions:
+-Assess current network infrastructure and requirements.
+-Procure and install new network switches.
+-Configure switches for optimal performance and security.
+-Test the network to ensure improved throughput and reliability.
+
+
+Ticket ID: ITD0010025
+Summary: Deployment of a new company-wide chat system
+Description: Deploy a new chat system across the company to improve internal communication. This includes user training and system integration.
+Priority: High
+Status: Planned
+Assigned To: IT Development Team - Alan Turing
+Requested By: IT Operations Team
+Date Opened: 2024-08-27
+Comments:
+-08/27/2024 08:30 AM: Request submitted by IT Operations Team
+-08/27/2024 09:30 AM: Chat system deployment planning in progress, expected rollout by 09/10/2024.
+Possible Solutions:
+-Choose and configure the chat system software.
+-Integrate the chat system with existing IT infrastructure.
+-Provide training and support for employees.
+-Test the system for performance and reliability.
+
+
+Ticket ID: ITD0010026
+Summary: Setup of remote desktop access for employees
+Description: Set up remote desktop access for employees to enable them to work from home securely. This includes configuring VPN and remote access policies.
+Priority: High
+Status: In Progress
+Assigned To: IT Support Team - Donald Knuth
+Requested By: HR Department
+Date Opened: 2024-08-29
+Comments:
+-08/29/2024 09:00 AM: Request submitted by HR Department
+-08/29/2024 10:00 AM: Remote desktop setup in progress, expected completion by 09/01/2024.
+Possible Solutions:
+-Configure VPN and remote access policies.
+-Set up remote desktop software and permissions.
+-Ensure secure access protocols are in place.
+-Test remote access for functionality and security.
+
+
+Ticket ID: ITD0010027
+Summary: Integration of HR system with payroll software
+Description: Integrate the HR management system with the payroll software to automate salary calculations and improve data accuracy.
+Priority: Medium
+Status: Planned
+Assigned To: IT Development Team - Grace Hopper
+Requested By: HR Department
+Date Opened: 2024-08-27
+Comments:
+-08/27/2024 11:00 AM: Request submitted by HR Department
+-08/27/2024 12:00 PM: System integration planning in progress, expected to start on 09/05/2024.
+Possible Solutions:
+-Assess compatibility between HR and payroll systems.
+-Develop and implement integration scripts or tools.
+-Test integration to ensure accurate data transfer.
+-Provide training and support for HR and payroll teams.
+
+
+Ticket ID: ITD0010028
+Summary: Resolution of printer connectivity issues in the marketing department
+Description: Investigate and resolve printer connectivity issues reported in the marketing department. This includes network configuration and driver updates.
+Priority: Low
+Status: In Progress
+Assigned To: IT Support Team - Grace Hopper
+Requested By: Marketing Department
+Date Opened: 2024-08-28
+Comments:
+-08/28/2024 02:00 PM: Request submitted by Marketing Department
+-08/28/2024 03:00 PM: Printer connectivity issue investigation in progress.
+Possible Solutions:
+-Check network configuration and printer settings.
+-Update or reinstall printer drivers if necessary.
+-Test connectivity and performance of the printer.
+-Contact the printer manufacturer or service provider if issues persist.
+
+
+Ticket ID: ITD0010029
+Summary: Implementation of single sign-on (SSO) across all internal systems
+Description: Implement single sign-on (SSO) across all internal systems to streamline user authentication and enhance security.
+Priority: High
+Status: Planned
+Assigned To: IT Security - Margaret Hamilton
+Requested By: IT Security Team
+Date Opened: 2024-08-28
+Comments:
+-08/28/2024 09:00 AM: Request submitted by IT Security Team
+-08/28/2024 10:00 AM: SSO implementation planning in progress, expected to start on 09/07/2024.
+Possible Solutions:
+-Select an SSO solution that integrates with existing systems.
+-Configure and test the SSO solution for compatibility.
+-Implement user training and support.
+-Monitor and resolve any issues during rollout.
+
+
+Ticket ID: ITD0010030
+Summary: Setup of a new data backup solution for the sales department
+Description: Set up a new data backup solution for the sales department, ensuring secure and automated backups of critical data.
+Priority: Medium
+Status: In Progress
+Assigned To: IT Support Team - Alan Turing
+Requested By: Sales Department
+Date Opened: 2024-08-28
+Comments:
+-08/28/2024 11:00 AM: Request submitted by Sales Department
+-08/28/2024 12:00 PM: Data backup solution setup in progress, expected completion by 09/03/2024.
+Possible Solutions:
+-Choose and configure the data backup solution.
+-Set up automated backup schedules and security measures.
+-Test backup and restore functionality.
+-Train the sales department on using the new solution.
+
+
+Ticket ID: ITD0010031
+Summary: Upgrade of email server to support increased user capacity
+Description: Upgrade the email server to support increased user capacity and improve email delivery speed and reliability.
+Priority: Critical
+Status: Planned
+Assigned To: IT Infrastructure - Donald Knuth
+Requested By: IT Infrastructure Team
+Date Opened: 2024-08-29
+Comments:
+-08/29/2024 08:00 AM: Request submitted by IT Infrastructure Team
+-08/29/2024 09:00 AM: Email server upgrade planning in progress, scheduled for 09/08/2024.
+Possible Solutions:
+-Assess the current server capacity and requirements.
+-Procure and install necessary hardware or software upgrades.
+-Configure the server for improved performance.
+-Test email functionality and delivery speed.
+
+
+Ticket ID: ITD0010032
+Summary: Implementation of advanced threat detection system
+Description: Implement an advanced threat detection system to enhance network security and protect against cyber threats.
+Priority: Critical
+Status: In Progress
+Assigned To: IT Security - Margaret Hamilton
+Requested By: IT Security Team
+Date Opened: 2024-08-28
+Comments:
+-08/28/2024 10:00 AM: Request submitted by IT Security Team
+-08/28/2024 11:00 AM: Threat detection system implementation in progress, expected completion by 09/10/2024.
+Possible Solutions:
+-Choose and configure an advanced threat detection system.
+-Integrate the system with existing network security measures.
+-Test for effectiveness in detecting and responding to threats.
+-Provide training for IT security personnel.
+
+
+Ticket ID: ITD0010033
+Summary: Deployment of mobile device management (MDM) solution
+Description: Deploy a mobile device management (MDM) solution to manage and secure mobile devices used by employees.
+Priority: High
+Status: Planned
+Assigned To: IT Security - Grace Hopper
+Requested By: IT Security Team
+Date Opened: 2024-08-29
+Comments:
+-08/29/2024 09:00 AM: Request submitted by IT Security Team
+-08/29/2024 10:00 AM: MDM deployment planning in progress, expected rollout by 09/12/2024.
+
+
+Ticket ID: ITD0010034
+Summary: Upgrade of office Wi-Fi to support higher bandwidth
+Description: Upgrade the office Wi-Fi network to support higher bandwidth and improve connectivity for all users.
+Priority: Medium
+Status: In Progress
+Assigned To: IT Networking - Alan Turing
+Requested By: IT Support Team
+Date Opened: 2024-08-29
+Comments:
+-08/29/2024 10:00 AM: Request submitted by IT Support Team
+-08/29/2024 11:00 AM: Wi-Fi upgrade in progress, expected completion by 09/05/2024.
+Possible Solutions:
+-Assess current Wi-Fi infrastructure and requirements.
+-Procure and install upgraded Wi-Fi hardware.
+-Configure the new Wi-Fi network for optimal performance.
+-Test Wi-Fi connectivity and speed.
+
+
+Ticket ID: ITD0010035
+Summary: Installation of antivirus software on all company devices
+Description: Install and configure antivirus software on all company devices to protect against malware and other security threats.
+Priority: High
+Status: In Progress
+Assigned To: IT Security - Margaret Hamilton
+Requested By: IT Security Team
+Date Opened: 2024-08-29
+Comments:
+-08/29/2024 09:30 AM: Request submitted by IT Security Team
+-08/29/2024 10:30 AM: Antivirus installation in progress, expected completion by 09/03/2024.
+Possible Solutions:
+-Choose and install antivirus software on all devices.
+-Configure antivirus settings for optimal protection.
+-Update and test the antivirus software regularly.
+-Provide training for employees on antivirus usage.
+
+
+Ticket ID: ITD0010036
+Summary: Troubleshooting of slow internet speeds in the office
+Description: Investigate and resolve issues related to slow internet speeds in the office. This includes checking the network configuration and contacting the ISP if necessary.
+Priority: Medium
+Status: Planned
+Assigned To: IT Networking - Donald Knuth
+Requested By: IT Support Team
+Date Opened: 2024-08-29
+Comments:
+08/29/2024 08:00 AM: Request submitted by IT Support Team
+08/29/2024 09:00 AM: Internet speed troubleshooting scheduled for 09/01/2024.
+Possible Solutions:
+-Check network configuration and hardware.
+-Perform a speed test and analyze results.
+-Contact ISP if the issue persists.
+-Implement solutions to optimize network performance.
+
+
+Ticket ID: ITD0010037
+Summary: Upgrade of office telephony system to VoIP
+Description: Upgrade the office telephony system to VoIP to reduce costs and improve call quality. This includes training employees on the new system.
+Priority: Medium
+Status: In Progress
+Assigned To: IT Support Team - Radia Perlman
+Requested By: IT Operations Team
+Date Opened: 2024-08-28
+Comments:
+-08/28/2024 09:00 AM: Request submitted by IT Operations Team
+-08/28/2024 10:00 AM: VoIP upgrade in progress, expected completion by 09/07/2024.
+
+
+Ticket ID: ITD0010038
+Summary: Setup of a new test environment for software development
+Description: Set up a new test environment for the software development team to ensure reliable testing of new applications and updates.
+Priority: High
+Status: Planned
+Assigned To: IT Development Team - Grace Hopper
+Requested By: Software Development Team
+Date Opened: 2024-08-30
+Comments:
+-08/30/2024 08:00 AM: Request submitted by Software Development Team
+-08/30/2024 09:00 AM: Test environment setup scheduled for 09/04/2024.
+Possible Solutions:
+-Define requirements for the test environment.
+-Set up necessary hardware and software.
+-Configure the environment for reliable testing.
+-Test the environment with sample applications.
+
+
+Ticket ID: ITD0010039
+Summary: Implementation of GDPR compliance across all IT systems
+Description: Implement GDPR compliance across all IT systems, ensuring data protection and privacy standards are met.
+Priority: Critical
+Status: Planned
+Assigned To: IT Security - Alan Turing
+Requested By: IT Security Team
+Date Opened: 2024-08-30
+Comments:
+-08/30/2024 09:00 AM: Request submitted by IT Security Team
+-08/30/2024 10:00 AM: GDPR compliance planning in progress, expected to start on 09/10/2024.
+Possible Solutions:
+-Review and update data protection policies and procedures.
+-Implement technical measures for data protection.
+-Conduct training on GDPR requirements.
+-Monitor and audit compliance regularly.
+
+
+Ticket ID: ITD0010040
+Summary: Setup of a secure file transfer protocol (SFTP) server
+Description: Set up a secure file transfer protocol (SFTP) server for securely transferring sensitive files between departments.
+Priority: High
+Status: Planned
+Assigned To: IT Networking - Grace Hopper
+Requested By: Finance Department
+Date Opened: 2024-08-29
+Comments:
+-08/29/2024 10:00 AM: Request submitted by Finance Department
+-08/29/2024 11:00 AM: SFTP server setup scheduled for 09/03/2024.
+
+
+Ticket ID: ITD0010041
+Summary: Installation of a new network firewall
+Description: Install a new network firewall to enhance security and control traffic across the network. This includes configuring firewall rules and monitoring traffic.
+Priority: Critical
+Status: Planned
+Assigned To: IT Security - Margaret Hamilton
+Requested By: IT Security Team
+Date Opened: 2024-08-30
+Comments:
+-08/30/2024 08:00 AM: Request submitted by IT Security Team
+-08/30/2024 09:00 AM: Firewall installation scheduled for 09/05/2024.
+Possible Solutions:
+-Procure and install the new firewall hardware.
+-Configure firewall rules and security policies.
+-Test the firewall for effectiveness in blocking unwanted traffic.
+-Monitor firewall performance and make adjustments as needed.
+
+
+Ticket ID: ITD0010042
+Summary: Upgrade of the database management system to the latest version
+Description: Upgrade the company’s database management system to the latest version to improve performance and security. This includes testing for compatibility with existing applications.
+Priority: High
+Status: In Progress
+Assigned To: IT Infrastructure - Donald Knuth
+Requested By: IT Operations Team
+Date Opened: 2024-08-29
+Comments:
+-08/29/2024 11:00 AM: Request submitted by IT Operations Team
+-08/29/2024 12:00 PM: Database management system upgrade in progress, expected completion by 09/07/2024.
+
+
+Ticket ID: ITD0010043
+Summary: Migration of on-premise applications to cloud infrastructure
+Description: Migrate on-premise applications to cloud infrastructure to improve scalability and reduce maintenance costs. This includes data migration and cloud environment setup.
+Priority: High
+Status: Planned
+Assigned To: IT Development Team - Radia Perlman
+Requested By: IT Infrastructure Team
+Date Opened: 2024-08-29
+Comments:
+-08/29/2024 09:00 AM: Request submitted by IT Infrastructure Team
+-08/29/2024 10:00 AM: Cloud migration planning in progress, scheduled for 09/12/2024.
+
+
+Ticket ID: ITD0010044
+Summary: Development of a custom CRM solution
+Description: Develop a custom CRM solution tailored to the company’s needs, including integration with existing systems and user training.
+Priority: Medium
+Status: Planned
+Assigned To: IT Development Team - Alan Turing
+Requested By: Sales Department
+Date Opened: 2024-08-30
+Comments:
+-08/30/2024 09:00 AM: Request submitted by Sales Department
+-08/30/2024 10:00 AM: CRM development planning in progress, expected to start on 09/10/2024.
+
+
+Ticket ID: ITD0010045
+Summary: Troubleshooting of software installation issues on office PCs
+Description: Investigate and resolve issues with software installations on office PCs. This includes checking software compatibility and updating system configurations.
+Priority: Low
+Status: Planned
+Assigned To: IT Support Team - Grace Hopper
+Requested By: IT Support Team
+Date Opened: 2024-08-30
+Comments:
+-08/30/2024 10:00 AM: Request submitted by IT Support Team
+-08/30/2024 11:00 AM: Software installation issue troubleshooting scheduled for 09/02/2024.
+
+
+Ticket ID: ITD0010046
+Summary: Implementation of an AI-driven customer support chatbot
+Description: Implement an AI-driven customer support chatbot on the company’s website to improve response times and customer satisfaction.
+Priority: Medium
+Status: Planned
+Assigned To: IT Development Team - Grace Hopper
+Requested By: Customer Support Team
+Date Opened: 2024-08-30
+Comments:
+-08/30/2024 08:00 AM: Request submitted by Customer Support Team
+-08/30/2024 09:00 AM: Chatbot implementation planning in progress, expected to start on 09/07/2024.
+
+
+Ticket ID: ITD0010047
+Summary: Configuration of two-factor authentication (2FA) for all employees
+Description: Configure two-factor authentication (2FA) for all employee accounts to enhance security. This includes user training and policy updates.
+Priority: High
+Status: In Progress
+Assigned To: IT Security - Margaret Hamilton
+Requested By: IT Security Team
+Date Opened: 2024-08-30
+Comments:
+-08/30/2024 09:30 AM: Request submitted by IT Security Team
+-08/30/2024 10:30 AM: 2FA configuration in progress, expected completion by 09/04/2024.
+
+
+Ticket ID: ITD0010048
+Summary: Setup of a company-wide content management system (CMS)
+Description: Set up a company-wide content management system (CMS) to streamline the creation and management of digital content.
+Priority: Medium
+Status: Planned
+Assigned To: IT Development Team - Donald Knuth
+Requested By: Marketing Department
+Date Opened: 2024-08-30
+Comments:
+-08/30/2024 08:30 AM: Request submitted by Marketing Department
+-08/30/2024 09:30 AM: CMS setup planning in progress, expected to start on 09/06/2024.
+
+
+Ticket ID: ITD0010049
+Summary: Implementation of disaster recovery plan for IT infrastructure
+Description: Implement a disaster recovery plan for the IT infrastructure to ensure business continuity in case of a system failure or disaster.
+Priority: Critical
+Status: Planned
+Assigned To: IT Operations Team - Radia Perlman
+Requested By: IT Infrastructure Team
+Date Opened: 2024-08-30
+Comments:
+-08/30/2024 09:00 AM: Request submitted by IT Infrastructure Team
+-08/30/2024 10:00 AM: Disaster recovery plan implementation scheduled for 09/15/2024.
+
+
+Ticket ID: ITD0010050
+Summary: Development of a mobile application for customer orders
+Description: Develop a mobile application for customers to place orders and track deliveries. This includes integrating with the existing order management system.
+Priority: Medium
+Status: Planned
+Assigned To: IT Development Team - Grace Hopper
+Requested By: Sales Department
+Date Opened: 2024-08-30
+Comments:
+-08/30/2024 09:30 AM: Request submitted by Sales Department
+-08/30/2024 10:30 AM: Mobile application development planning in progress, expected to start on 09/08/2024.

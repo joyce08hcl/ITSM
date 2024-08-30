@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask App with Dify Chatbot</title>
+
+    <!-- Option 1: Add Chat App to Bottom Right -->
+    <script>
+        window.difyChatbotConfig = {
+            token: 'I38xsMFPjWjIxZlG',
+            baseUrl: 'http://10.35.151.101:5002'
+        }
+    </script>
+    <script
+        src="http://10.35.151.101/embed.min.js"
+        id="I38xsMFPjWjIxZlG"
+        defer>
+    </script>
+    <style>
+        #dify-chatbot-bubble-button {
+            background-color: #1C64F2 !important;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dify</h1>
+
+
+    <!-- Option 2: Embed Chat App Anywhere on the Page -->
+    <iframe
+        src="http://10.35.151.101:7080/chatbot/I38xsMFPjWjIxZlG"
+        style="width: 100%; height: 100%; min-height: 700px"
+        frameborder="0"
+        allow="microphone">
+    </iframe>
+</body>
+</html>

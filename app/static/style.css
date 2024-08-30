@@ -1,0 +1,436 @@
+.user_img {
+    width: 50px;
+    height: 50px;
+}
+
+.user_img_msg {
+    width: 30px;
+    height: 30px;
+}
+
+.msg_cotainer {
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.msg_cotainer_send {
+    background: #78e08f;
+    padding: 10px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.msg_time, .msg_time_send {
+    font-size: 10px;
+    color: #fff;
+    margin-top: 8px;
+}
+
+body,html{
+	margin: 0px;
+	height: 100%;
+	/* background-color: rgb(233, 233, 233);  */
+    /* background: -webkit-linear-gradient(to right, rgb(226, 226, 226), rgb(218, 222, 227), rgb(32, 32, 43));
+	background: linear-gradient(to right, rgb(175, 172, 172), rgb(231, 234, 238), rgb(205, 205, 205)); */ 
+
+	background: rgb(44, 47, 59);
+    background: -webkit-linear-gradient(to right, rgb(40, 59, 34), rgb(54, 60, 70), rgb(32, 32, 43));
+	background: linear-gradient(to right, rgb(38, 51, 61), rgb(50, 55, 65), rgb(33, 33, 78));
+
+}
+
+.chat{
+	margin-top: auto;
+	margin-bottom: auto;
+
+}
+.card{
+    height: 630px;
+    border-radius: 15px !important;
+    background-color: rgba(0,0,0,0.4) !important;
+	/* background-color: rgba(255, 255, 255, 0.4) !important; */
+}
+
+.contacts_body{
+	padding:  0.75rem 0 !important;
+	overflow-y: auto;
+	white-space: nowrap;
+}
+.msg_card_body{
+	overflow-y: auto;
+}
+.msg_card_body::-webkit-scrollbar {
+    display: none;
+}
+
+.card-header{
+	border-radius: 15px 15px 0 0 !important;
+	border-bottom: 0 !important;
+}
+.card-footer{
+border-radius: 0 0 15px 15px !important;
+	border-top: 0 !important;
+}
+.container{
+	align-content: center;
+}
+.search{
+	border-radius: 15px 0 0 15px !important;
+	background-color: rgba(0,0,0,0.3) !important;
+	border:0 !important;
+	color:white !important;
+}
+.search:focus{
+	 box-shadow:none !important;
+   outline:0px !important;
+}
+.type_msg{
+	background-color: rgba(0,0,0,0.3) !important;
+	border:0 !important;
+	color:white !important;
+	height: 60px !important;
+	overflow-y: auto;
+}
+	.type_msg:focus{
+	 box-shadow:none !important;
+   outline:0px !important;
+}
+.attach_btn{
+	border-radius: 15px 0 0 15px !important;
+	background-color: rgba(0,0,0,0.3) !important;
+	border:0 !important;
+	color: white !important;
+	cursor: pointer;
+}
+.send_btn{
+	border-radius: 0 15px 15px 0 !important;
+	background-color: rgba(0,0,0,0.3) !important;
+	border:0 !important;
+	color: white !important;
+	cursor: pointer;
+}
+.search_btn{
+	border-radius: 0 15px 15px 0 !important;
+	background-color: rgba(0,0,0,0.3) !important;
+	border:0 !important;
+	color: white !important;
+	cursor: pointer;
+}
+.contacts{
+	list-style: none;
+	padding: 0;
+}
+.contacts li{
+	width: 100% !important;
+	padding: 5px 10px;
+	margin-bottom: 15px !important;
+}
+.active{
+	background-color: rgba(0,0,0,0.3);
+}
+.user_img{
+	height: 70px;
+	width: 70px;
+	border:1.5px solid #f5f6fa;
+
+}
+.user_img_msg{
+	height: 40px;
+	width: 40px;
+	border:1.5px solid #f5f6fa;
+
+}
+.img_cont{
+	position: relative;
+	height: 70px;
+	width: 70px;
+}
+.img_cont_msg{
+	height: 40px;
+	width: 40px;
+
+}
+.online_icon{
+	position: absolute;
+	height: 15px;
+	width:15px;
+	background-color: #4cd137;
+	border-radius: 50%;
+	bottom: 0.2em;
+	right: 0.4em;
+	border:1.5px solid white;
+}
+.offline{
+	background-color: #c23616 !important;
+}
+.user_info{
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 15px;
+}
+.user_info span{
+	font-size: 16px;
+	color: white;
+}
+.user_info p{
+	font-size: 10px;
+	color: rgba(255,255,255,0.6);
+}
+.video_cam{
+	margin-left: 50px;
+	margin-top: 5px;
+}
+.video_cam span{
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+	margin-right: 20px;
+}
+.msg_cotainer{
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 10px;
+	border-radius: 25px;
+	background-color: #bfbfbf;
+	padding: 10px;
+	position: relative;
+}
+.msg_cotainer_send{
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 10px;
+	border-radius: 25px;
+	background-color: black;
+	color: white;
+	padding: 10px;
+	position: relative;
+}
+.msg_time{
+	position: absolute;
+	left: 0;
+	bottom: -15px;
+	color: rgba(255,255,255,0.5);
+	font-size: 10px;
+}
+.msg_time_send{
+	position: absolute;
+	right:0;
+	bottom: -15px;
+	color: rgba(255,255,255,0.5);
+	font-size: 10px;
+}
+.msg_head{
+	position: relative;
+}
+#action_menu_btn{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	color: white;
+	cursor: pointer;
+	font-size: 20px;
+}
+.action_menu{
+	z-index: 1;
+	position: absolute;
+	padding: 15px 0;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	border-radius: 15px;
+	top: 30px;
+	right: 15px;
+	display: none;
+}
+.action_menu ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.action_menu ul li{
+	width: 100%;
+	padding: 10px 15px;
+	margin-bottom: 5px;
+}
+.action_menu ul li i{
+	padding-right: 10px;
+}
+.action_menu ul li:hover{
+	cursor: pointer;
+	background-color: rgba(0,0,0,0.2);
+}
+@media(max-width: 576px){
+	.contacts_card{
+	margin-bottom: 15px !important;
+}
+}
+
+
+
+#loader {
+    display: none; /* Hidden by default */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+
+.lds-spinner,
+.lds-spinner div,
+.lds-spinner div:after {
+  box-sizing: border-box;
+}
+.lds-spinner {
+  color: white;
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-spinner div {
+  transform-origin: 40px 40px;
+  animation: lds-spinner 1.2s linear infinite;
+}
+.lds-spinner div:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 3.2px;
+  left: 36.8px;
+  width: 6.4px;
+  height: 17.6px;
+  border-radius: 20%;
+  background: currentColor;
+}
+.lds-spinner div:nth-child(1) {
+  transform: rotate(0deg);
+  animation-delay: -1.1s;
+}
+.lds-spinner div:nth-child(2) {
+  transform: rotate(30deg);
+  animation-delay: -1s;
+}
+.lds-spinner div:nth-child(3) {
+  transform: rotate(60deg);
+  animation-delay: -0.9s;
+}
+.lds-spinner div:nth-child(4) {
+  transform: rotate(90deg);
+  animation-delay: -0.8s;
+}
+.lds-spinner div:nth-child(5) {
+  transform: rotate(120deg);
+  animation-delay: -0.7s;
+}
+.lds-spinner div:nth-child(6) {
+  transform: rotate(150deg);
+  animation-delay: -0.6s;
+}
+.lds-spinner div:nth-child(7) {
+  transform: rotate(180deg);
+  animation-delay: -0.5s;
+}
+.lds-spinner div:nth-child(8) {
+  transform: rotate(210deg);
+  animation-delay: -0.4s;
+}
+.lds-spinner div:nth-child(9) {
+  transform: rotate(240deg);
+  animation-delay: -0.3s;
+}
+.lds-spinner div:nth-child(10) {
+  transform: rotate(270deg);
+  animation-delay: -0.2s;
+}
+.lds-spinner div:nth-child(11) {
+  transform: rotate(300deg);
+  animation-delay: -0.1s;
+}
+.lds-spinner div:nth-child(12) {
+  transform: rotate(330deg);
+  animation-delay: 0s;
+}
+@keyframes lds-spinner {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+
+
+
+
+
+#chatWindow {
+    width: 600px;
+    height: 650px;
+    position: fixed;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+    z-index: 1000;
+    display: none;
+}
+
+.chat-button-hidden {
+    display: none;
+}
+
+#openChat {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1001;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #3f8cd8;
+    color: #fff;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#openChat:hover {
+    transform: scale(1.1);
+}
+
+#openChat:hover .popup-text {
+    display: block;
+    opacity: 1;
+}
+
+.popup-text {
+    position: absolute;
+    bottom: 80px;
+    right: 50%;
+    transform: translateX(50%);
+    background-color: #00162d;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 14px;
+    white-space: nowrap;
+    display: none;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.chat-button-container {
+    position: relative;
+}
+
